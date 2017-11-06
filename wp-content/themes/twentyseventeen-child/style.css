@@ -7,3 +7,11 @@ Author URI:
 Template: twentyseventeen
 Version: 0.1.0
 */
+
+/*changes the colour of social media icons*/
+.social-navigation a {
+    background-color: #99CCCC;}
+
+/*changes the colour of widget titles*/
+h2.widget-title {
+    color: #99CCCC;}
