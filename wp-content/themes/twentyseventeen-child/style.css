@@ -15,3 +15,46 @@ Version: 0.1.0
 /*changes the colour of widget titles*/
 h2.widget-title {
     color: #99CCCC;}
+
+/*removes Powered By Wordpress from footer*/
+.site-info {
+    display: none;
+}
+
+/*removes entry-title from pages*/
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    display: none;
+}
+
+/*removes edit-link from page header*/
+.page .entry-header .edit-link {
+    display: none;
+}
+
+/*increase font-size of main nav*/
+.navigation-top {
+    font-size: 1.25rem;
+}
+
+/*changes colour of main nav buttons*/
+.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+    color: #99CCCC;
+}
+.navigation-top a {
+    color: #99CCCC;
+}
+
+/*changes site-title font-size*/
+.site-title {
+    font-size: 2.5rem;
+}
+
+/*changes site-description font-size*/
+.site-description {
+    font-size: 1.25rem;
+}
+
+/*changes widget-titles font-size*/
+h2.widget-title {
+    font-size: 1rem;
+}
