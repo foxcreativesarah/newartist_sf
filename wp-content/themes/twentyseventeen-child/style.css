@@ -58,3 +58,8 @@ h2.widget-title {
 h2.widget-title {
     font-size: 1rem;
 }
+
+/*changes colour of blog post nav*/
+.nav-title {
+    color: #99CCCC;
+}
