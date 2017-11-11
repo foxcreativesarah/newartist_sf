@@ -63,3 +63,14 @@ h2.widget-title {
 .nav-title {
     color: #99CCCC;
 }
+
+/*changes text colour and font-weight on contact form*/
+label {
+    color: #99CCCC;
+    font-weight: 600;
+}
+
+/*changes button colour on contact form*/
+button, input[type="button"], input[type="submit"] {
+    background-color: #99CCCC;
+}
