@@ -8,10 +8,11 @@ function theme_enqueue_styles() {
    );
 }
 
-//adding a textdomain to child theme so it is translatable
+//adds a textdomain to child theme so it is translatable
 
 function twentyseventeen_child_setup () {
     //prepare theme for translation
     load_child_theme_textdomain ('twentyseventeen-child', get_stylesheet_directory() . '/languages');
 }
 add_action ('after_setup_theme', 'twentyseventeen_child_setup');
+
