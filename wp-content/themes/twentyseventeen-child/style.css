@@ -74,3 +74,8 @@ label {
 button, input[type="button"], input[type="submit"] {
     background-color: #99CCCC;
 }
+
+/*removes entry-header line on home page*/
+.panel-content .entry-header {
+    display: none;
+}
